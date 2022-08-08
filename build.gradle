@@ -15,6 +15,9 @@ repositories {
 }
 
 dependencies {
+// https://mvnrepository.com/artifact/com.microsoft.azure/azure-servicebus
+    implementation 'com.microsoft.azure:azure-servicebus:3.6.6'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.9'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
